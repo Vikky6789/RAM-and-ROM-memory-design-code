@@ -1,0 +1,76 @@
+$date
+	Mon Jun 24 11:21:48 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module dual_port_ram_tb $end
+$var wire 8 ! out2 [7:0] $end
+$var wire 8 " out1 [7:0] $end
+$var reg 6 # adr1 [5:0] $end
+$var reg 6 $ adr2 [5:0] $end
+$var reg 1 % clk $end
+$var reg 8 & data1 [7:0] $end
+$var reg 8 ' data2 [7:0] $end
+$var reg 1 ( en1 $end
+$var reg 1 ) en2 $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1)
+1(
+b1110 '
+b1100 &
+1%
+b1 $
+b0 #
+bx "
+bx !
+$end
+#5
+0%
+#10
+1%
+#12
+b11 $
+b11000 '
+b10 #
+b10110 &
+#15
+0%
+#20
+1%
+#22
+0)
+0(
+#25
+0%
+#30
+b11000 !
+b10110 "
+1%
+#32
+b1 $
+b0 #
+#35
+0%
+#40
+b1100 "
+b1110 !
+1%
+#45
+0%
+#50
+1%
+#55
+0%
+#60
+1%
+#62
